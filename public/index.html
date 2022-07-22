@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Wordle</title>
+        <meta http-equiv="cache-control" content = "no-cache" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no">
+        <!-- stylesheets-->
+        <link rel="stylesheet" href="wordle.css">
+        <script type ="module" src="./wordle.js" ></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    
+
+    <body>
+        <header>
+            <div class="title">
+              Wordl
+            </div>
+          </header>
+        <h1 id="title">Wordl</h1>
+        <hr>
+        <br>
+        <div class="popup">
+            <button id="close">&times;</button>
+            <h2> Welcome to Wordl!</h2>
+            <p> Welcome to UP2024660's Wordl
+
+                Guess the WORDL in six tries.
+
+                Each guess must be a valid five-letter word. Hit the Enter button to submit.
+                
+                After each guess, the colour of the tiles will change to show how close your guess was to the word.
+            </p>
+            
+        </div>
+        <div class="endpopup">
+            <button id="close">&times;</button>
+            <h2>Thanks for playing!</h2>
+            <p> 
+                
+            </p>
+            
+        </div>
+
+
+        <div id="board">
+        </div>
+        <br>
+        <h1 id="answer"></h1>
+    </body>
+
+    <script>
+        let endpop = document.getElementById("endpop");
+
+    </script>
+</html>

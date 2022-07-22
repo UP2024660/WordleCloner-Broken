@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "name": "gitwordl",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-portsoc": "^1.0.0",
+    "jshint": "^2.13.4",
+    "nodemon": "^2.0.16"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-schedule": "^2.1.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8",
+    "uuid": "^8.3.2",
+    "uuid-random": "^1.3.2"
+  },
+  "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  }
+}
